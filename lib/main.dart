@@ -12,10 +12,9 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      initialRoute: RoutesName.main,
-      onGenerateRoute: Routes.onGenerateRoute,
-      theme: ThemeData(canvasColor: Colors.white),
-    );
+        debugShowCheckedModeBanner: false,
+        initialRoute: RoutesName.main,
+        onGenerateRoute: Routes.onGenerateRoute,
+        theme: ThemeData(canvasColor: Color.fromARGB(235, 158, 158, 158)));
   }
 }

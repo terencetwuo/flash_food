@@ -95,18 +95,18 @@ class SettingsView extends StatelessWidget {
                               ),
                               child: Column(
                                 children: [
-                                  Gap(10),
+                                  const Gap(10),
                                   Container(
                                     width: 66.67,
                                     height: 4,
                                     decoration: ShapeDecoration(
-                                      color: Color(0xFFD6D6D6),
+                                      color: const Color(0xFFD6D6D6),
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(11),
                                       ),
                                     ),
                                   ),
-                                  Gap(10),
+                                  const Gap(10),
 
                                 ],
                               ),

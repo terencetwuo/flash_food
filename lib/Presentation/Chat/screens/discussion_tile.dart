@@ -73,7 +73,7 @@ class DiscussionTile extends StatelessWidget {
                 SizedBox(
                   width: getSize(20),
                   height: getSize(20),
-                  child:  Icon(
+                  child:  const Icon(
                     Icons.check,
                     color: Pallete.orangePrimary,
                   ),

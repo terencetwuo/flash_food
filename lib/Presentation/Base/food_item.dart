@@ -35,7 +35,7 @@ class FoodItem extends StatelessWidget {
           children: [
             Container(
               width: getWidth(137),
-              height: getHeight(106),
+              height: getHeight(100),
               padding: EdgeInsets.all(getSize(8)),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(getSize(8)),
@@ -63,9 +63,10 @@ class FoodItem extends StatelessWidget {
             ),
             const Gap(8),
             Text(
-              "Ordinary Burgers",
-              style: TextStyles.bodyLargeMedium
-                  .copyWith(color: Pallete.neutral100, fontSize: getFontSize(FontSizes.large)),
+              "Install lights",
+              style: TextStyles.bodyLargeMedium.copyWith(
+                  color: Pallete.neutral100,
+                  fontSize: getFontSize(FontSizes.large)),
             ),
             const Gap(4),
             Row(
@@ -73,13 +74,13 @@ class FoodItem extends StatelessWidget {
                 Row(
                   children: [
                     Icon(
-                      Icons.star,
-                      color: Pallete.orangePrimary,
+                      Icons.store,
+                      color: Colors.orange,
                       size: getSize(16),
                     ),
                     const Gap(4),
                     Text(
-                      "4.9",
+                      "Store",
                       style: TextStyles.bodySmallMedium
                           .copyWith(color: Pallete.neutral100),
                     )
@@ -95,9 +96,10 @@ class FoodItem extends StatelessWidget {
                     ),
                     const Gap(4),
                     Text(
-                      "190m",
-                      style: TextStyles.bodySmallMedium
-                          .copyWith(color: Pallete.neutral100, fontSize: getFontSize(FontSizes.small)),
+                      "<3km",
+                      style: TextStyles.bodySmallMedium.copyWith(
+                          color: Pallete.neutral100,
+                          fontSize: getFontSize(FontSizes.small)),
                     )
                   ],
                 )
@@ -105,9 +107,10 @@ class FoodItem extends StatelessWidget {
             ),
             const Gap(6),
             Text(
-              '\$ 17,230',
-              style: TextStyles.bodyLargeBold
-                  .copyWith(color: Pallete.orangePrimary, fontSize: getFontSize(FontSizes.large)),
+              '\RM 50',
+              style: TextStyles.bodyLargeBold.copyWith(
+                  color: Pallete.orangePrimary,
+                  fontSize: getFontSize(FontSizes.large)),
             )
           ],
         ),

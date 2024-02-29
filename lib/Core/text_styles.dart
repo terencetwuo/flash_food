@@ -1,4 +1,3 @@
-import 'package:flash_food/Core/font_size.dart';
 import 'package:flutter/material.dart';
 
 class TextStyles {

@@ -1,4 +1,3 @@
-import 'package:flash_food/Core/response_conf.dart';
 
 class FontSizes {
   static double h1 = 64;

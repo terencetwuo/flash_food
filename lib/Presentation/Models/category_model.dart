@@ -7,8 +7,8 @@ class Category {
 }
 
 List<Category> categories = [
-  Category(designation: "Burger", link: AssetsConstants.burger),
-  Category(designation: "Taco", link: AssetsConstants.taco),
-  Category(designation: "Drink", link: AssetsConstants.drink),
-  Category(designation: "Pizza", link: AssetsConstants.pizza),
+  Category(designation: "General", link: AssetsConstants.drink),
+  Category(designation: "Technician", link: AssetsConstants.technician),
+  Category(designation: "Cleaner", link: AssetsConstants.pizza),
+  Category(designation: "Runner", link: AssetsConstants.taco),
 ];

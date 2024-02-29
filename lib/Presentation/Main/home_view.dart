@@ -44,8 +44,9 @@ class HomeView extends StatelessWidget {
                             children: [
                               Text(
                                 "Your Location",
-                                style: TextStyles.bodyMediumRegular
-                                    .copyWith(color: Colors.white, fontSize: getFontSize(FontSizes.medium)),
+                                style: TextStyles.bodyMediumRegular.copyWith(
+                                    color: Colors.white,
+                                    fontSize: getFontSize(FontSizes.medium)),
                               ),
                               const Gap(8),
                               const Icon(
@@ -66,8 +67,9 @@ class HomeView extends StatelessWidget {
                               const Gap(8),
                               Text(
                                 "New York City",
-                                style: TextStyles.bodyMediumSemiBold
-                                    .copyWith(color: Colors.white, fontSize: getFontSize(FontSizes.medium)),
+                                style: TextStyles.bodyMediumSemiBold.copyWith(
+                                    color: Colors.white,
+                                    fontSize: getFontSize(FontSizes.medium)),
                               )
                             ],
                           )
@@ -76,14 +78,15 @@ class HomeView extends StatelessWidget {
                       Row(
                         children: [
                           InkWell(
-                            onTap: () => Navigator.pushNamed(context, RoutesName.search),
+                            onTap: () =>
+                                Navigator.pushNamed(context, RoutesName.search),
                             child: Container(
                               height: getSize(40),
                               width: getSize(40),
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
-                                  border:
-                                      Border.all(color: Colors.white, width: 1)),
+                                  border: Border.all(
+                                      color: Colors.white, width: 1)),
                               child: Icon(
                                 Icons.search,
                                 color: Colors.white,
@@ -115,9 +118,10 @@ class HomeView extends StatelessWidget {
                   ),
                   const Gap(26),
                   Text(
-                    "Provide the best \nfood for you",
-                    style: TextStyles.headingH4SemiBold
-                        .copyWith(color: Pallete.neutral10, fontSize: getFontSize(FontSizes.h4)),
+                    "Jobs available near you",
+                    style: TextStyles.headingH4SemiBold.copyWith(
+                        color: Pallete.neutral10,
+                        fontSize: getFontSize(FontSizes.h4)),
                   ),
                 ],
               ),
@@ -133,13 +137,15 @@ class HomeView extends StatelessWidget {
                   children: [
                     Text(
                       "Find by Category",
-                      style: TextStyles.bodyLargeSemiBold
-                          .copyWith(color: Pallete.neutral100, fontSize: getFontSize(FontSizes.large)),
+                      style: TextStyles.bodyLargeSemiBold.copyWith(
+                          color: Pallete.neutral100,
+                          fontSize: getFontSize(FontSizes.large)),
                     ),
                     Text(
                       "See All",
-                      style: TextStyles.bodyMediumMedium
-                          .copyWith(color: Pallete.orangePrimary, fontSize: getFontSize(FontSizes.medium)),
+                      style: TextStyles.bodyMediumMedium.copyWith(
+                          color: Pallete.orangePrimary,
+                          fontSize: getFontSize(FontSizes.medium)),
                     )
                   ],
                 ),
@@ -203,22 +209,6 @@ class HomeView extends StatelessWidget {
                   ],
                 ),
                 const Gap(16),
-                const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    FoodItem(),
-                    FoodItem(),
-                  ],
-                ),
-                const Gap(16),
-                const Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    FoodItem(),
-                    FoodItem(),
-                  ],
-                ),
-
               ],
             ),
           )

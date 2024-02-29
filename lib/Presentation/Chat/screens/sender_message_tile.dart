@@ -43,7 +43,7 @@ class SenderMessageTile extends StatelessWidget {
                   fontSize: getFontSize(FontSizes.small)
               ),),
               const Gap(4),
-              Icon(
+              const Icon(
                 Icons.check,
                 color: Pallete.orangePrimary,
               )

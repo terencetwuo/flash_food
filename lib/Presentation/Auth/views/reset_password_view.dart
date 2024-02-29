@@ -165,7 +165,7 @@ class ResetPasswordView extends StatelessWidget {
                         ),),
                         const Gap(32),
                         Text("Password changed successfully, you can login again with a new password", style: TextStyles.bodyMediumMedium.copyWith(
-                          color: Color(0xFF878787), fontSize: getFontSize(14)
+                          color: const Color(0xFF878787), fontSize: getFontSize(14)
                         ),),
                         
                         const Gap(32),
